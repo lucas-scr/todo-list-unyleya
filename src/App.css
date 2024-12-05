@@ -1,38 +1,93 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #F5F5F5;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
   text-align: center;
+  letter-spacing: normal;
+  line-height: normal;
+  font-size: 32px;
+  font-family: "Arial Negrito", "Arial Normal", "Arial", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #A68768;
+  white-space: nowrap;
+  text-transform: none;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  cursor: inherit !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  letter-spacing: normal;
+  color: #F5F5F5;
+  text-align: center;
+  line-height: normal;
+  max-width: 600px;
+  height: 129px;
+  background-color: rgba(74, 99, 130, 1);
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px rgba(170, 170, 170, 0.34901960784313724);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+li:last-child {
+  border-bottom: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  background: rgba(74, 99, 130, 1);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+}
+
+button:hover{
+  background: #F2F2F2;
+  opacity: 100%;
+}
+
+.icon_lixeira{
+  color: #F2F2F2;
+  opacity: 100%;
+  width: 25px;
+  height: 25px;
+}
+
+.icon_lixeira:hover{
+  color: rgba(74, 99, 130, 1);
 }
