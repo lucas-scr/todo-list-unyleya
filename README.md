@@ -1,3 +1,9 @@
+#Projeto Unyleya Frontend
+
+Um lista simples com a funcionalidade de listar tarefas, remover e detalhar.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
