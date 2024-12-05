@@ -34,41 +34,35 @@ ul {
   padding: 0;
 }
 
-li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  border-bottom: 1px solid #ddd;
-  letter-spacing: normal;
-  color: #F5F5F5;
-  text-align: center;
-  line-height: normal;
-  max-width: 600px;
-  height: 129px;
-  background-color: rgba(74, 99, 130, 1);
-  border-radius: 10px;
-  box-shadow: 1px 2px 3px rgba(170, 170, 170, 0.34901960784313724);
+h3{
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
-  margin: 10px;
-  padding: 15px;
-  position: relative;
+  width: 560px;
+  text-align: start;
+  color: #F5F5F5;
 }
 
-li:last-child {
-  border-bottom: none;
+li {
+  display: flex;
+  align-items:flex-start;
+  padding: 10px;
+  line-height: normal;
+  max-width: 600px;
+  width: 560px;
+  height: 129px;
+  background-color: rgba(74, 99, 130, 1);
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px rgba(170, 170, 170, 0.34901960784313724);
+  margin: 10px;
+  padding: 15px;
 }
 
 button {
-  background: rgba(74, 99, 130, 1);
+  background: F2F2F2;
   border: none;
-  border-radius: 3px;
   cursor: pointer;
-  display: flex;
-  align-self: flex-end;
   align-items: center;
   width: 35px;
   height: 35px;
@@ -76,18 +70,29 @@ button {
 
 }
 
-button:hover{
-  background: #F2F2F2;
-  opacity: 100%;
+.botao_olho{
+  display: flex;
+  align-self: flex-start;
+  margin: 5px;
 }
 
+.botao_lixeira{
+  display: flex;
+  align-self: flex-start;
+  margin: 5px;
+}
+
+
+
 .icon_lixeira{
-  color: #F2F2F2;
-  opacity: 100%;
+  color:  rgba(74, 99, 130, 1);
   width: 25px;
   height: 25px;
 }
 
-.icon_lixeira:hover{
-  color: rgba(74, 99, 130, 1);
+
+.icon_olho{
+  color:  rgba(74, 99, 130, 1);
+  width: 25px;
+  height: 25px;
 }
